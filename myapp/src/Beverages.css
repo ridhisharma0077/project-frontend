@@ -1,0 +1,34 @@
+.Beveragesflex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: stretch;
+}
+ @media only screen and (max-width: 480px){
+.Beveragesflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: stretch;
+      margin-top: 5px;
+    margin-left: -50px;
+    margin-right: 10px;
+    margin-bottom: -50px;
+
+}}
+#Beveragesbody{
+    padding-top: 20px;
+    background-color: #EBEAFF;
+    padding-bottom: 10px;
+}
+@media only screen and (max-width: 480px){
+#Beveragesbody{
+    padding-top: 5px;
+    background-color: #EBEAFF;
+    padding-bottom: 70px;
+}}
+.nav6{
+    text-decoration: none;
+}

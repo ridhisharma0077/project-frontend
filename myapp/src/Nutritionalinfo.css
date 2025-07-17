@@ -1,0 +1,83 @@
+#nutritionaldiv{
+    padding-top:10px;
+    background-color: #EBEAFF;
+     color:#547792;
+      /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+ @media only screen and (max-width: 480px){
+#nutritionaldiv{
+    padding-top:30px;
+    background-color: #EBEAFF;
+     color:#547792;
+      /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}}
+#datainfo{
+    margin:40px;
+}
+ @media only screen and (max-width: 480px){
+#datainfo{
+    margin:40px;
+}}
+#h1info{
+    text-align:center;
+     color:#E53888;
+}
+ @media only screen and (max-width: 480px){
+#h1info{
+    text-align:center;
+    font-size: 20px;
+     color:#E53888;
+}}
+#h5info{
+    color:#547792;
+    text-align:center;
+}
+ @media only screen and (max-width: 480px){
+#h5info{
+    color:#547792;
+    text-align:center;
+    font-size: 15px;
+    padding-top: 0px;
+}}
+#flexnutritionalinfo{
+    display:flex;
+     gap:100px;
+      justify-content:space-evenly;
+}
+ @media only screen and (max-width: 480px){
+#flexnutritionalinfo{
+    display:flex;
+    flex-direction:column;
+     gap:20px;
+      justify-content:space-evenly;
+}}
+#nutriimg{
+    height:300px;
+     width:400px;
+      border-radius:20px;
+       margin-left:30px;
+        padding:20px;
+         border:2px solid #E53888; 
+}
+ @media only screen and (max-width: 480px){
+#nutriimg{
+    height:220px;
+     width:310px;
+      border-radius:20px;
+       margin-left:-7px;
+        padding:10px;
+         border:2px solid #E53888; 
+}}
+#infop{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin: 10px; */
+    font-size: 20px;
+}
+ @media only screen and (max-width: 480px){
+#infop{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+text-align: center;
+font-size: 15px;
+}
+}

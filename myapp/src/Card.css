@@ -1,0 +1,105 @@
+.card-body{
+    text-align: center;
+    /* border: #547792 solid 2px; */
+  height: 360px;
+    width: 280px;
+    margin-left: 20px;
+}
+ @media only screen and (max-width: 480px){
+.card-body{
+    text-align: center;
+    /* border: #547792 solid 2px; */
+ height: 150px;
+    width: 140px;
+    margin-left: 35px;
+}}
+.card{
+    height: 360px;
+    width: 280px;
+    margin-top: 60px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: #EBEAFF; 
+    justify-content: center;
+}
+ @media only screen and (max-width: 480px){
+.card{
+    height: 200px;
+    width: 140px;
+    margin-top: 60px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #EBEAFF; 
+    justify-content: center;
+    margin-left: 0px;
+}}
+    .price{
+        width: 130px;
+        height: 35px;
+        background-color:#E53888 ;
+        color: white;
+        text-align: center;
+        border-radius: 20px;
+        margin-left: 75px;
+        padding-top: 3px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ @media only screen and (max-width: 480px){
+  .price{
+        width: 65px;
+        height: 17px;
+        background-color:#E53888 ;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        margin-left: 20px;
+        padding-top: 0px;
+        margin-top: -10px;
+        font-size: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}}
+.price:hover{
+    background-color: #547792;
+}
+.cardimg{
+    height: 210px;
+    width: 280px;
+    border-radius: 50px;
+    padding: 10px;
+    border: 2px solid #E53888;
+    margin-left: 20px;
+}
+ @media only screen and (max-width: 480px){
+.cardimg{
+    height: 120px !important;
+    width: 160px !important;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid #E53888;
+    margin-left: 20px;
+}}
+.card-title{
+    color: #E53888;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ @media only screen and (max-width: 480px){
+.card-title{
+    color: #E53888;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding: 0px;
+}}
+.card-text{
+    color: #547792;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ @media only screen and (max-width: 480px){
+.card-text{
+    color: #547792;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+}}
+ @media only screen and (max-width: 480px){
+.card-title{
+    text-align: center;
+}}

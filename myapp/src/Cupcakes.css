@@ -1,0 +1,35 @@
+.Cupcakeflex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: stretch;
+}
+ @media only screen and (max-width: 480px){
+.Cupcakeflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: stretch;
+      margin-top: 5px;
+    margin-left: -50px;
+    margin-right: 10px;
+    margin-bottom: -50px;
+
+}}
+#Cupcakebody{
+    padding-top: 20px;
+    background-color: #EBEAFF;
+    padding-bottom: 10px;
+
+}
+ @media only screen and (max-width: 480px){
+#Cupcakebody{
+    padding-top: 30px;
+    background-color: #EBEAFF;
+    padding-bottom: 70px;
+}}
+.cupcakenav{
+    text-decoration: none;
+}

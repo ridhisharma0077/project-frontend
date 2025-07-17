@@ -1,0 +1,611 @@
+#h1{
+    color: #E53888;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-weight: 500;
+    background-color:#FFE1FF ;
+    padding-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media only screen and (max-width: 480px){
+#h1{
+  font-size: 25px;
+}
+}
+/* #logo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-left: -100px;
+} */
+ #logo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-left: 35%;
+}
+.name{
+    text-decoration: none;
+outline: none;
+}
+@media only screen and (max-width: 480px){
+.image{
+  margin-left: -50px;
+height: 250px;
+width: 400px;
+/* border: #E53888 solid 1px; */
+}
+}
+
+@media only screen and (max-width: 480px){
+.image img{
+height: 250px;
+}}
+@media only screen and (max-width: 480px){
+#imge1{
+  /* border-left: 0px; */
+height: 250px;
+    width: 400px;
+}}  
+@media only screen and (max-width: 480px){
+  #imge2{
+  /* border-right: #E53888 solid 1px;
+  border-left: #E53888 solid 1px;
+  border-bottom: #E53888 solid 1px;
+  display:inline-block; */
+  display: none;
+}}
+@media only screen and (max-width: 480px){
+  .image1{
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    border: 0px;
+}}
+/* @media only screen and (max-width: 480px){ */
+/* @media only screen and (max-width: 480px){ */
+
+.image img{
+height: 500px;
+}
+.image1 img{
+    height: 400px;
+    width: 600px;
+    border-top: #E53888 solid 2px;
+    border-bottom: #E53888 solid 2px;
+}
+
+#imge1{
+  border-left: #E53888 solid 2px;
+}
+#imge2{
+  border-right: #E53888 solid 2px;
+}
+.image1{
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.image1:hover{
+    opacity: 0.8;
+}
+.p1{
+    color: #E53888;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -200px;
+    background-color: white;
+    width: 1195px;
+    font-weight: 500;
+}
+/* @media only screen and (max-width: 480px){
+  .p1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color: #E53888;
+    width: 400px;
+    font-weight: 200;
+    margin-left: 0px;
+    font-size: 100px;
+    padding: 0%;
+  }
+} */
+.shophead{
+  padding-top: 50px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #E53888;
+}
+@media only screen and (max-width: 480px){
+.shophead{
+  padding-top: 0px;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #E53888;
+}}
+.shopp{
+  text-align: center;
+  color: #547792;
+  display: block;
+  position:"absolute";
+  margin-left: 250px;
+  margin-right: 250px;
+  left: 500px;
+  margin-left: 400px;
+  margin-right: 400px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media only screen and (max-width: 480px){
+.shopp{
+  text-align: center;
+  color: #547792;
+  display: block;
+  position:"absolute";
+  /* margin-left: 250px;
+  margin-right: 250px; */
+  left: 500px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}}
+.Flex{
+  display: flex;
+  height: 400px;
+  width: 1250px;
+  background-color: white;
+  margin-left: 50px;
+  gap: 30px;
+  border-radius: 50px;
+}
+@media only screen and (max-width: 480px){
+.Flex{
+  display: flex;
+  height: 250px;
+  width: 330px;
+  background-color: white;
+  margin-left: 25px;
+  gap: 5px;
+  border-radius: 20px;
+}}
+.Flexh{
+  color: #547792;
+  text-align: center;
+  margin-top: 75px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media only screen and (max-width: 480px){
+.Flexh{
+  color: #547792;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 10px;
+  margin-left: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}}
+.Flexp{
+  color: #E53888;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media only screen and (max-width: 480px){
+.Flexp{
+  color: #E53888;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 9px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}}
+.Shop{
+  height:300px;
+  width:400px;
+  margin-top:50px;
+}
+@media only screen and (max-width: 480px){
+.Shop{
+width: 130px;
+height: 100px;
+margin-top: 70px;
+}}
+#body{
+    background-color: #FFE1FF;
+    padding-bottom: 50px;
+  }
+.images{
+    margin-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    overflow: hidden;
+    padding-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+.image-container{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 480px){
+.image-container{
+    margin-left:25px;
+    margin-bottom: 50px;
+}}
+.image-container img{
+    /* width: 280px;
+    height: 400px; */
+    overflow: hidden;
+    border-radius: 20px;
+  box-shadow: #547792 3px 3px 4px;
+  }
+  .main-image1 {
+    width: 300px;
+    height: 450px;
+    transition: 0.3s;
+    margin-top: -50px;
+  }
+@media only screen and (max-width: 480px){
+  .main-image1 {
+    width: 150px;
+    height: 200px;
+    transition: 0.3s;
+    margin-top: -50px;
+    
+    /* margin-left: -50px; */
+  }}
+  .main-image2 {
+    /* width: 100%;
+    height: 100%; */
+    width: 290px;
+    height: 450px;
+    transition: 0.3s;
+    margin-left: 25px;
+    margin-top: 70px;
+  }
+@media only screen and (max-width: 480px){
+ .main-image2 {
+    width: 150px;
+    height: 200px;
+    transition: 0.3s;
+    margin-left: 25px;
+    margin-top: 0px;
+  }}
+  .main-image3 {
+    /* width: 100%;
+    height: 100%; */
+    width: 290px;
+    height: 450px;
+    transition: 0.3s;
+    margin-left: 25px;
+    margin-top: -50px;
+  }
+@media only screen and (max-width: 480px){
+   .main-image3 {
+    width: 150px;
+    height: 200px;
+    transition: 0.3s;
+    margin-left: 0px;
+    margin-top: -10px;
+  }}
+  .main-image4 {
+   width: 290px;
+    height: 450px;
+    transition: 0.5s;
+    margin-left: 25px;
+    margin-top: 70px;
+  }
+@media only screen and (max-width: 480px){
+ .main-image4 {
+    width: 150px;
+    height: 200px;
+    transition: 0.5s;
+    /* margin-left: 25px; */
+    margin-top: 30px;
+  }}
+  .main-image1:hover {
+    content: url('https://media.istockphoto.com/id/1968218905/photo/piece-of-homemade-blueberry-cheesecake-on-dark-background.jpg?s=612x612&w=0&k=20&c=TG08CVThHlC7vplThPPwfE_oTPaEfKAAEExpF3zX-YQ=');
+  }
+
+  .main-image2:hover{
+  content:url('https://media.istockphoto.com/id/1428880603/photo/a-box-of-chocolate-donuts.jpg?s=612x612&w=0&k=20&c=lfWdj1WohvpCNd7IzxVsgVHn4X_1ogkqbh6oNQkvI3g=');
+  }
+  .main-image3:hover{
+    content:url('https://media.istockphoto.com/id/587901366/photo/blueberry-smoothie-cocktail.jpg?s=612x612&w=0&k=20&c=_sSCNGb8LxnLz769FoDytwhIDO3GWcczRckYceW2HYc=');
+  }
+  .main-image4:hover {
+    content:url('https://media.istockphoto.com/id/1295615186/photo/fresh-baked-cinnamon-buns.jpg?s=612x612&w=0&k=20&c=3YimdIY9JvC7a5DByePFefCZyu_nAfmp4mi2FBeocIc=');
+  }
+      
+/* .i6{
+    margin-left: -8px;
+    margin-top: -154px; */
+    /* transition: transform 1s ease; */
+/* }
+.i6:hover{
+    transform:scale(1.1)
+   } */
+   #heading11{
+    font-size: 80px;
+    font-weight: 500;
+    color: #547792;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 400px;
+   }
+@media only screen and (max-width: 480px){
+   #heading11{
+ font-size: 25px;
+    font-weight: 500;
+    color: #547792;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 150px;
+    padding-top: 20px;
+   }}
+   #heading12{
+    font-size: 80px;
+    font-weight: 500;
+    color: #547792;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 520px;
+    margin-top: -25px;
+   }
+   @media only screen and (max-width: 480px){
+  #heading12{
+    font-size: 30px;
+    font-weight: 500;
+    color: #547792;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 120px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+   }}
+   #taste{
+    padding-top: 50px;
+    text-align: center;
+    color: #547792;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25px;
+   }
+   @media only screen and (max-width: 480px){
+  #taste{
+    padding-top: 5px;
+    text-align: center;
+    color: #547792;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 0px;
+   }}
+   #our{
+    text-align: center;
+    color: #E53888;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+   }
+   @media only screen and (max-width: 480px){
+ #our{
+    text-align: center;
+    color: #E53888;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 25px;
+    font-size: 20px;
+   }}
+   /* .hide{
+    display: none;
+   } */
+  #cards6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+   @media only screen and (max-width: 480px){
+  #cards6{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+  }}
+  /* #cards2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  } */
+   .imgdiv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+   }
+   #wedding{
+    height: 360px;
+    width: 550px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+   }
+   @media only screen and (max-width: 480px){
+ #wedding{
+    height: 120px;
+    width: 150px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+   }}
+   #breakfast{
+    height: 360px;
+    width: 550px;
+    border-radius: 50px;
+   }
+   @media only screen and (max-width: 480px){
+ #breakfast{
+    height: 120px;
+    width: 150px;
+    border-radius: 20px;
+   }}
+   #birthdays{
+    height: 740px;
+    margin-left: 20px;
+    border-radius: 50px;
+   }
+   @media only screen and (max-width: 480px){
+ #birthdays{
+    height: 245px;
+    margin-left: 5px;
+    border-radius: 20px;
+   }}
+   .imgdiv1{
+    position: absolute;
+    color:#E53888;
+    background-color: #FFE1FF ;
+    padding-left: 135px;
+    padding-right: 135px;
+    margin-top: -80px;
+   }
+   @media only screen and (max-width: 480px){
+ .imgdiv1{
+    position: absolute;
+    color:#E53888;
+    background-color: #FFE1FF ;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 10px;
+    margin-top: -20px;
+    text-align: center;
+   }}
+   .imgdiv1:hover{
+    color: #547792;
+   }
+   .imgdiv2:hover{
+    color: #547792;
+   }
+   .imgdiv3:hover{
+    color: #547792;
+   }
+   .imgdiv2{
+    position: absolute;
+    color:hsl(332, 77%, 56%);
+    /* left: 200px;
+    top: 3220px; */
+    background-color: #FFE1FF;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-top: -60px;
+   }
+   @media only screen and (max-width: 480px){
+ .imgdiv2{
+    position: absolute;
+    color:hsl(332, 77%, 56%);
+    background-color: #FFE1FF;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 10px;
+    margin-top: -20px;
+    text-align: center;
+   }}
+   .imgdiv3{
+    color:#E53888;
+    position: absolute;
+    background-color: #FFE1FF;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-top: -60px;
+   }
+   @media only screen and (max-width: 480px){
+ .imgdiv3{
+    position: absolute;
+    color:#E53888;
+    background-color: #FFE1FF;
+      padding-left: 50px;
+    padding-right: 50px;
+    font-size: 10px;
+    margin-top: -20px;
+    text-align: center;
+   }}
+   #feedback{
+    height: 400px;
+    width: 1250px;
+    background-color: white;
+    margin-left: 50px;
+    border-radius: 50px;
+    height: 350px;
+    padding-bottom: 50px;
+   }
+   @media only screen and (max-width: 480px){
+  #feedback{
+    height: 200px;
+    width: 340px;
+    background-color: white;
+    margin-left: 17px;
+    border-radius: 50px;
+    padding-bottom: 0px;
+    margin-bottom: -20px;
+   }}
+   #test{
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    color: #547792;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   @media only screen and (max-width: 480px){
+ #test{
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: #547792;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }}
+   #testicon{
+    height: 50px;
+    margin-left: 48%;
+    margin-top: 25px;
+   }
+   @media only screen and (max-width: 480px){
+  #testicon{
+    height: 20px;
+    margin-left: 48%;
+    margin-top: -5px;
+   }}
+   .testcarousel{
+    width: 800px;
+margin-left: 230px;
+   }
+   @media only screen and (max-width: 480px){
+ .testcarousel{
+    width: 300px;
+margin-left: 10px;
+   }}
+   .testp{
+color: #E53888;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+margin-top: 50px;
+font-size: 20px;
+}
+   @media only screen and (max-width: 480px){
+       .testp{
+color: #E53888;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+margin-top: 5px;
+font-size: 10px;
+}}
+
+   .testh{
+    font-size: 30px;
+color: #547792;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   @media only screen and (max-width: 480px){
+   .testh{
+    font-size: 15px;
+color: #547792;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }}

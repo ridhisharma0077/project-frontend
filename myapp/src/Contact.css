@@ -1,0 +1,95 @@
+#Contactbody{
+      padding-top: 20px;
+    background-color: #EBEAFF;
+}
+ @media only screen and (max-width: 480px){
+#Contactbody{
+      padding-top: 30px;
+    background-color: #EBEAFF;
+}}
+.Contactflex{
+    display: flex;
+    justify-content: space-evenly;
+}
+ @media only screen and (max-width: 480px){
+.Contactflex{
+    display: flex;
+    justify-content: space-evenly;
+}}
+.contactdata{
+    height:70px;
+         width:70px;
+    margin-top: 30px;
+}
+ @media only screen and (max-width: 480px){
+.contactdata{
+    height:30px;
+         width:30px;
+    margin-top: 10px;
+}}
+h2{
+    font-size: 30px;
+}
+ @media only screen and (max-width: 480px){
+h2{
+    font-size: 15px;
+    margin-top: 5px;
+}}
+p{
+    font-size: 20px;
+}
+ @media only screen and (max-width: 480px){
+p{
+    font-size: 7px;
+    /* padding: 5px; */
+    text-align: center;
+    margin-left: -10px;
+    margin-right: -10px;
+}}
+#contacthead{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #547792;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+ @media only screen and (max-width: 480px){
+#contacthead{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #547792;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}}
+.contactdiv{
+    height: 270px;
+    width: 350px;
+    text-align: center;
+    background-color: white;
+    border-radius: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 70px;
+    border: 2px solid #E53888;
+    color: #547792;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ @media only screen and (max-width: 480px){
+.contactdiv{
+    height: 140px;
+    width: 110px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 30px;
+    border: 2px solid #E53888;
+    color: #547792;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}}
+

@@ -1,0 +1,103 @@
+#Login{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    /* background-color:"#EBEAFF" */
+}
+ @media only screen and (max-width: 480px){
+#Login{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    /* background-color:"#EBEAFF" */
+}}
+#Loginbody{
+    padding-top: 10px;
+    background-color:#EBEAFF;
+    height: 700px;
+}
+ @media only screen and (max-width: 480px){
+#Loginbody{
+    padding-top: 30px;
+    background-color: #EBEAFF;
+    padding-bottom: 70px;
+}}
+.form2 input{
+    width: 50%;
+}
+ @media only screen and (max-width: 480px){
+.form2 input{
+    width: 50%;
+}}
+.form2{
+    /* margin-top: 50px; */
+    margin-left: 24%;
+    color:#547792;
+    font-weight: 700;
+    background-color: white;
+    border: 3px solid #E53888;
+    display: block;
+width: 30%;
+justify-content: center;
+position: absolute;
+padding-top: 30px;
+margin-top: 50px;
+padding-bottom: 30px;
+border-radius: 40px;
+padding-left: 40px;
+margin-left: 35%;
+/* text-align: center; */
+}
+ @media only screen and (max-width: 480px){
+.form2{
+    /* margin-top: 50px; */
+    margin-left: 24%;
+    color:#547792;
+    font-weight: 700;
+    background-color: white;
+    border: 3px solid #E53888;
+    display: block;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+width: 70%;
+justify-content: center;
+position: absolute;
+padding-top: 30px;
+margin-top: 50px;
+padding-bottom: 30px;
+border-radius: 40px;
+padding-left: 40px;
+margin-left: 15%;
+/* text-align: center; */
+}}
+#bg1{
+background-color:#EBEAFF ;
+} 
+ #bg1::before{
+    opacity: 0.5;
+    z-index:0;
+} 
+#Signup{
+    opacity: 1.1;
+    padding-bottom: 20px;
+}
+ @media only screen and (max-width: 480px){
+#Signup{
+    text-align: center;
+    color: #547792;
+  margin-left: -30px;
+}}
+#signbtn{
+    margin-left:35%;
+     background-color:#547792;
+      border:0px;
+}
+ @media only screen and (max-width: 480px){
+#signbtn{
+    margin-left:25%;
+     background-color:#547792;
+      border:0px;
+}}
+.form2{
+    opacity: 1.1;
+}

@@ -1,0 +1,33 @@
+.pastryflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+     align-items: stretch;
+    height: 100%;
+}
+ @media only screen and (max-width: 480px){
+.pastryflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+     align-items: stretch;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: -50px;
+    margin-right: 10px;
+    margin-bottom: -50px;
+}}
+#Pastriesbody{
+    padding-top: 20px;
+    background-color: #EBEAFF;
+    padding-bottom: 10px;
+}
+ @media only screen and (max-width: 480px){
+#Pastriesbody{
+    padding-top: 30px;
+    background-color: #EBEAFF;
+    padding-bottom: 70px;
+}}
+.nav2{
+    text-decoration: none;
+}

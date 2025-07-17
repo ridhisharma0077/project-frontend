@@ -1,0 +1,34 @@
+.Donutsflex{
+    display: flex;
+       flex-wrap: wrap;
+    height: 100%;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+ @media only screen and (max-width: 480px){
+.Donutsflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: stretch;
+      margin-top: 5px;
+    margin-left: -50px;
+    margin-right: 10px;
+    margin-bottom: -50px;
+
+}}
+#Donutsbody{
+    padding-top: 20px;
+    background-color: #EBEAFF;
+    padding-bottom: 10px;
+}
+ @media only screen and (max-width: 480px){
+#Donutsbody{
+    padding-top: 30px;
+    background-color: #EBEAFF;
+    padding-bottom: 70px;
+}}
+.nav4{
+    text-decoration: none;
+}
